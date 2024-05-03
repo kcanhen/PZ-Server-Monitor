@@ -14,9 +14,11 @@ set Boardcast=
 set BoardcastHour=%Hour%
 set /a BoardcastMinute=%Minute%-%Boardcast%
 
+::count
 if %BoardcastMinute% lss 0 (
     set /a BoardcastMinute=BoardcastMinute+60
     set /a BoardcastHour=BoardcastHour-1
+    goto count
 )
 
 if %BoardcastHour% lss 0 (

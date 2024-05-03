@@ -6,6 +6,7 @@ Used with https://github.com/gorcon/rcon-cli/releases/tag/v0.10.1
 **Setup Process**
 
 1. Edit `StartServer64.bat` and add the following line of code at the beginning: `start PzMonitor.bat`.
+![image](https://github.com/kcanhen/PZ-Server-Monitor/assets/128405714/6619f253-f9c3-47ee-b9ca-6f11a5b5d5fa)
 
 2. Download `PzMonitor.bat`, extract `rcon-0.10.1-win64.zip`, and place them all in the same directory as `StartServer64.bat`.
 

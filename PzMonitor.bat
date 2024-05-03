@@ -16,6 +16,7 @@ goto loop
 
 :time
 ::Time to Boardcast
+if Timer==true (
 if %SysHour%==%BoardcastHour% (
     if %SysMin%==%BoardcastMinute% (
 	rcon -a 127.0.0.1:27015 -p %RconPassword% "servermsg \"%message%\"
@@ -30,6 +31,7 @@ if %SysHour%==%Hour% (
     )
 )
 echo [%SysHour%:%SysMin%]:Waiting for %Hour%:%Minute%...
+)
 timeout /t 10 >NUL 2>&1
 
 

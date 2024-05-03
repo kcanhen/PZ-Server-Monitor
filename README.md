@@ -22,10 +22,9 @@ Used with https://github.com/gorcon/rcon-cli/releases/tag/v0.10.1
 
    - **Minute**: Specify the minute for the restart (0~59).
 
-   - **BroadcastHour**: The hour for the text reminder (0~23).
+   - **Broadcast**: Set how many minutes before the server shutdown to broadcast a reminder to players.
+![image](https://github.com/kcanhen/PZ-Server-Monitor/assets/128405714/d28410b2-03ad-4303-a42b-5fcb58208ff1)
 
-   - **BroadcastMinute**: The minute for the text reminder (0~59).
-![image](https://github.com/kcanhen/PZ-Server-Monitor/assets/128405714/5a783183-dd5c-49cb-a512-aa40ae3f89c1)
 
 4. Once all settings are configured, you can start using it!
 

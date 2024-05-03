@@ -36,6 +36,7 @@ Monitor: "Check if the server is running"; if it is not, it will automatically r
 
 
 According to the configured schedule, the server will "automatically shut down and restart at the specified time." (This feature can be disabled.)
+
 ![image](https://github.com/kcanhen/PZ-Server-Monitor/assets/128405714/41c2ed92-4e3a-4d8b-be96-7141139d3935)
 
 (There are other methods known, still in experimental testing. I will update this once I have time to resolve them...)

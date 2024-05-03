@@ -4,12 +4,12 @@ title PZ Server Monitor
 SETLOCAL EnableExtensions
 
 ::Setting here
-set RconPassword=Asxm66113595
-set Message=!! Server will reboot in 5 minute !!
-set Hour=6
-set Minute=0
-set BoardcastHour=5
-set BoardcastMinute=55
+set RconPassword=
+set Message=
+set Hour=
+set Minute=
+set BoardcastHour=
+set BoardcastMinute=
 ::Setting end
 
 goto loop

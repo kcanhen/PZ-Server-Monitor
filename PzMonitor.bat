@@ -8,9 +8,20 @@ set RconPassword=
 set Message=
 set Hour=
 set Minute=
-set BoardcastHour=
-set BoardcastMinute=
+set Boardcast=
 ::Setting end
+
+set BoardcastHour=%Hour%
+set /a BoardcastMinute=%Minute%-%Boardcast%
+
+if %BoardcastMinute% lss 0 (
+    set /a BoardcastMinute=BoardcastMinute+60
+    set /a BoardcastHour=BoardcastHour-1
+)
+
+if %BoardcastHour% lss 0 (
+    set /a BoardcastHour=BoardcastHour+24
+)
 
 goto loop
 

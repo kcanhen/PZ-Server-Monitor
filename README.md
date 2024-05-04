@@ -12,18 +12,19 @@ Used with https://github.com/gorcon/rcon-cli/releases/tag/v0.10.1
 
 3. Edit `PzMonitor.bat` and fill in the following details at the designated location (refer to the diagram below):
 
+   - **Timer**: Enable automatic server restart `true/false`.
+
    - **RconPassword**: Rcon password (found in `%USERPROFILE%\Zomboid\Server\servertest.ini` under `RCONPassword=`).
 
-   - **Timer**: Enable automatic server restart (true/false).
+   - **Message**: Text reminder before restarting the server `(please write your own)`.
 
-   - **Message**: Text reminder before restarting the server (please write your own).
+   - **Hour**: Specify the hour for the restart `0~23`.
 
-   - **Hour**: Specify the hour for the restart (0~23).
-
-   - **Minute**: Specify the minute for the restart (0~59).
+   - **Minute**: Specify the minute for the restart `0~59`.
 
    - **Broadcast**: Set how many minutes before the server shutdown to broadcast a reminder to players.
-![image](https://github.com/kcanhen/PZ-Server-Monitor/assets/128405714/d28410b2-03ad-4303-a42b-5fcb58208ff1)
+![image](https://github.com/kcanhen/PZ-Server-Monitor/assets/128405714/d4df6c0c-e071-433e-8f41-2038b6456d8d)
+
 
 
 4. Once all settings are configured, you can start using it!

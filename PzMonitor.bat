@@ -4,6 +4,7 @@ title PZ Server Monitor
 SETLOCAL EnableExtensions
 
 ::Setting here
+set Timer=
 set RconPassword=
 set Message=
 set Hour=
@@ -14,7 +15,7 @@ set Boardcast=
 set BoardcastHour=%Hour%
 set /a BoardcastMinute=%Minute%-%Boardcast%
 
-::count
+:count
 if %BoardcastMinute% lss 0 (
     set /a BoardcastMinute=BoardcastMinute+60
     set /a BoardcastHour=BoardcastHour-1
@@ -30,12 +31,12 @@ goto loop
 :time
 ::Time to Boardcast
 if Timer==true (
-if %SysHour%==%BoardcastHour% (
-    if %SysMin%==%BoardcastMinute% (
-	rcon -a 127.0.0.1:27015 -p %RconPassword% "servermsg \"%message%\"
-    )
+	if %SysHour%==%BoardcastHour% (
+		if %SysMin%==%BoardcastMinute% (
+		rcon -a 127.0.0.1:27015 -p %RconPassword% "servermsg \"%message%\"
+		)
+	)
 )
-
 ::Time to restart
 if %SysHour%==%Hour% (
     if %SysMin%==%Minute% (

@@ -7,7 +7,7 @@
 
 I developed a tool and combined it with other developers' plugins to achieve 24-hour automatic mod detection and updating, eliminating the need for manual server restarts.
 
-**Setup Process**
+* Setup Process
 
 1. First, install the `Udderly Up To Date` mod.
 

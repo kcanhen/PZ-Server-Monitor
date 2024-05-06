@@ -2,9 +2,8 @@
 
 Used with:
 
-RCON: https://github.com/gorcon/rcon-cli/releases/tag/v0.10.1
-
-Udderly Up To Date: https://steamcommunity.com/sharedfiles/filedetails/?id=2844315442
+* RCON: https://github.com/gorcon/rcon-cli/releases/tag/v0.10.1
+* Udderly Up To Date: https://steamcommunity.com/sharedfiles/filedetails/?id=2844315442
 
 
 

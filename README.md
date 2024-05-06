@@ -1,15 +1,11 @@
 # PZ-Server-Monitor
 
-Used with:
+## Used with:
 
 * RCON: https://github.com/gorcon/rcon-cli/releases/tag/v0.10.1
 * Udderly Up To Date: https://steamcommunity.com/sharedfiles/filedetails/?id=2844315442
 
-
-
 I developed a tool and combined it with other developers' plugins to achieve 24-hour automatic mod detection and updating, eliminating the need for manual server restarts.
-
-
 
 **Setup Process**
 

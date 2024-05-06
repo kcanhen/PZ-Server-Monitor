@@ -1,20 +1,25 @@
 # PZ-Server-Monitor
 
-Used with https://github.com/gorcon/rcon-cli/releases/tag/v0.10.1
+Used with:
+https://github.com/gorcon/rcon-cli/releases/tag/v0.10.1
+https://steamcommunity.com/sharedfiles/filedetails/?id=2844315442
 
+I developed a tool and combined it with other developers' plugins to achieve 24-hour automatic mod detection and updating, eliminating the need for manual server restarts.
 
 **Setup Process**
 
-1. Edit `StartServer64.bat` and add the following line of code at the beginning: `start PzMonitor.bat`.
+1. First, install the `Udderly Up To Date` mod.
+
+2. Edit `StartServer64.bat` and add the following line of code at the beginning: `start PzMonitor.bat`.
 ![image](https://github.com/kcanhen/PZ-Server-Monitor/assets/128405714/6619f253-f9c3-47ee-b9ca-6f11a5b5d5fa)
 
 
 
-2. Download `PzMonitor.bat`, extract `rcon-0.10.1-win64.zip`, and place them all in the same directory as `StartServer64.bat`.
+3. Download `PzMonitor.bat`, extract `rcon-0.10.1-win64.zip`, and place them all in the same directory as `StartServer64.bat`.
 
 
 
-3. Edit `PzMonitor.bat` and fill in the following details at the designated location (refer to the diagram below):
+4. Edit `PzMonitor.bat` and fill in the following details at the designated location (refer to the diagram below):
 
    - **Timer**: Enable automatic server restart `true/false`.
 
@@ -32,7 +37,7 @@ Used with https://github.com/gorcon/rcon-cli/releases/tag/v0.10.1
 
 
 
-4. Once all settings are configured, you can start using it!
+5. Once all settings are configured, you can start using it!
 
    After opening `PzMonitor.bat`, two windows will appear: one is the monitor, and the other is the server itself.
 
@@ -42,8 +47,7 @@ Monitor: "Check if the server is running"; if it is not, it will automatically r
 
 
 
-According to the configured schedule, the server will "automatically shut down and restart at the specified time." (This feature can be disabled.)
+If the Timer is set to `true`, the server will automatically shut down and restart at the specified time. (This feature can be disabled.)
 
 ![image](https://github.com/kcanhen/PZ-Server-Monitor/assets/128405714/41c2ed92-4e3a-4d8b-be96-7141139d3935)
 
-(There are other methods known, still in experimental testing. I will update this once I have time to resolve them...)

@@ -12,7 +12,7 @@ I developed a tool and combined it with other developers' plugins to achieve 24-
 1. First, install the `Udderly Up To Date` mod.
 
 2. Edit the "StartServer64.bat" file, add the code `start PzMonitor.bat` to the first line and the code `exit` to the last line.
-![image](https://github.com/kcanhen/PZ-Server-Monitor/assets/128405714/6619f253-f9c3-47ee-b9ca-6f11a5b5d5fa)
+![image](https://github.com/kcanhen/PZ-Server-Monitor/assets/128405714/6ba588a6-5e0e-48aa-9d01-266a1cd7a11d)
 
 
 

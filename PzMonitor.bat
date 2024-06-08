@@ -4,12 +4,12 @@ title PZ Server Monitor
 SETLOCAL EnableExtensions
 
 ::Setting here
-set Timer=
-set RconPassword=
-set Message=
-set Hour=
-set Minute=
-set Boardcast=
+set Timer=false
+set RconPassword=Asxm66113595
+set Message=!!Server will reboot in 5 minute !!
+set Hour=6
+set Minute=0
+set Boardcast=5
 ::Setting end
 
 set BoardcastHour=%Hour%
@@ -36,7 +36,7 @@ if Timer==true (
 		rcon -a 127.0.0.1:27015 -p %RconPassword% "servermsg \"%message%\"
 		)
 	)
-)
+
 ::Time to restart
 if %SysHour%==%Hour% (
     if %SysMin%==%Minute% (
